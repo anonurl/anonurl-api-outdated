@@ -8,11 +8,11 @@ const updateClick = require('./services/updateClick');
 
 module.exports =
     router
-        .post('/api/createshort', (req, res) => createShort(req, res))
+        .post('/api/create', (req, res) => createShort(req, res))
 
         .get('/api/track/:tracked', (req, res) => track(req, res))
 
-        .get('/api/:id', (req, res) => redirect(req, res))
+        .get('/api/redirect/:id', (req, res) => redirect(req, res))
 
         .post('/api/report', (req, res) => report(req, res))
 

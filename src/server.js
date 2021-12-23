@@ -11,4 +11,4 @@ app
 
     .use(router)
 
-    .listen(3001, () => console.log('> Server listening on port 3001'));
+    .listen(3000, () => console.log('> Server listening on port 3000'));
