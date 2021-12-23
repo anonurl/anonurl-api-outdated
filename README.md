@@ -6,7 +6,7 @@
 ## 📖 Summary
 [Changelog](https://github.com/anonurl/anonurl-api#changelog)<br>
 [Used technologies](https://github.com/anonurl/anonurl-api#usedtech)<br>
-[Endpoints](https://github.com/anonurl/anonurl-api#endpoints)
+[Endpoints](https://github.com/anonurl/anonurl-api#endpoints)<br>
 [Setup](https://github.com/anonurl/anonurl-api#setup)<br>
 
 <br><a name="changelog"></a>
