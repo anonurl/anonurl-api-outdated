@@ -13,9 +13,6 @@ module.exports = db.model('urls', new db.Schema({
     create: {
         type: String,
         required: true
-    },
-    clicks: {
-        type: Number
     }
 }, {
     collection: 'urls'
