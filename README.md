@@ -21,10 +21,10 @@
 
 <br><a name="endpoints"></a>
 ## 🔌 Endpoints
-<strong>/api/create (POST):</strong> To create shorted URLs
-<strong>/api/track/ID (GET):</strong> To get basic information of a shorten URL
-<strong>/api/redirect/ID (GET):</strong> To get information of redirect to shorted URL
-<strong>/api/report (POST):</strong> To send a report
+<strong>/api/create (POST):</strong> To create shorted URLs<br>
+<strong>/api/track/ID (GET):</strong> To get basic information of a shorten URL<br>
+<strong>/api/redirect/ID (GET):</strong> To get information of redirect to shorted URL<br>
+<strong>/api/report (POST):</strong> To send a report<br>
 
 <br><a name="setup"></a>
 ## 🔧 Setup
