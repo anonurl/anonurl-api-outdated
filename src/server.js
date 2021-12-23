@@ -3,6 +3,7 @@ const cors = require('cors');
 
 const app = express();
 const router = require('./routes');
+const port = process.env.PORT || 3000;
 
 app
     .use(cors())
@@ -11,4 +12,4 @@ app
 
     .use(router)
 
-    .listen(3000, () => console.log('> Server listening on port 3000'));
+    .listen(() => console.log(`> Server listening on port ${port}`));
