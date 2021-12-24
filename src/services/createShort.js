@@ -14,8 +14,7 @@ module.exports = async (req, res) => {
             const newUrl = await Urls.create({
                 url,
                 id,
-                create: new Date().toLocaleString('en-US'),
-                clicks: 0
+                create: new Date().toLocaleString('en-US')
             });
 
             return newUrl, res.status(200).send(newUrl);
